@@ -7,7 +7,7 @@ Below is an example of a nixos configuration using this flake :
 ```nix
 {
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-  inputs.funkwhale.url = "github:mmai/typesense-flake";
+  inputs.typesense.url = "github:mmai/typesense-flake";
 
   outputs = { self, nixpkgs, typesense }: 
   let
